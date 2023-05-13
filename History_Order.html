@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History_Order</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="./assets/CSS/admin.css">
+    <link rel="stylesheet" href="./assets/CSS/responsive.css">
+    <script src="./assets/js/admin.js"></script>
+</head>
+
+<body>
+    <div id="tab1" class="tabcontent" style="display:block;">
+        <div class="head-tab">
+            <div class="input-group  search-box">
+                <input type="text" class="form-control search" placeholder="Search" aria-label="Search"
+                    aria-describedby="button-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i
+                            class="fa fa-search"></i></button>
+                </div>
+            </div>
+            <div class="dropdown ms-sm-3 header-item topbar-user topbar-head-dropdown dropdown-hover-end">
+                <button type="button" class="btn" id="page-header-user-dropdown" data-bs-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <span class="d-flex align-items-center">
+                        <img class="rounded-circle header-profile-user1" src="./assets/images/Logo/Logo1.jpg"
+                            alt="Header Avatar">
+                        <span class="text-start ms-xl-2">
+                            <span class="d-none d-xl-inline-block ms-1 fw-medium user-name-text">Nguyễn Minh Khải</span>
+                            <span class="d-none d-xl-block ms-1 fs-13 user-name-sub-text">Founder</span>
+                        </span>
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="content_tab1">
+            <div class="container">
+                    <div class="recent-product">
+                        <h5>History Order</h5>
+                        <div class="contain-table table-responsive">
+                            <table class="table table-striped bg-light">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Avatar</th>
+                                        <th scope="col">Amount</th>
+                                        <th scope="col">Price</th>
+                                        <th scope="col">Details</th>
+                                        <th scope="col">Status</th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Rose Flower</td>
+                                        <td><img src="./assets/images/Logo/Logo1-removebg.png" alt="Rose Flower"
+                                                class="product_image">
+                                        </td>
+                                        <td>10</td>
+                                        <td>$100</td>
+                                        <td>Rose Flower</td>
+                                        <td><span class="badge badge-success">In stock</span></td>
+                                        <td><button type="button" class="btn btn-primary btn-sm">Delete</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rose Flower</td>
+                                        <td><img src="./assets/images/Logo/Logo1-removebg.png" alt="Rose Flower"
+                                                class="product_image">
+                                        </td>
+                                        <td>5</td>
+                                        <td>$50</td>
+                                        <td></td>
+                                        <td><span class="badge badge-warning">Low stock</span></td>
+                                        <td><button type="button" class="btn btn-primary btn-sm">Delete</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rose Flower</td>
+                                        <td><img src="./assets/images/Logo/Logo1-removebg.png" alt="Rose Flower"
+                                                class="product_image">
+                                        </td>
+                                        <td>2</td>
+                                        <td>$200</td>
+                                        <td>Sed do eiusmod tempor incididunt ut labore</td>
+                                        <td><span class="badge badge-danger">Out of stock</span></td>
+                                        <td><button type="button" class="btn btn-primary btn-sm">Delete</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rose Flower</td>
+                                        <td><img src="./assets/images/Logo/Logo1-removebg.png" alt="Rose Flower"
+                                                class="product_image">
+                                        </td>
+                                        <td>2</td>
+                                        <td>$200</td>
+                                        <td>Sed do eiusmod tempor incididunt ut labore</td>
+                                        <td><span class="badge badge-danger">Out of stock</span></td>
+                                        <td><button type="button" class="btn btn-primary btn-sm">Delete</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rose Flower</td>
+                                        <td><img src="./assets/images/Logo/Logo1-removebg.png" alt="Rose Flower"
+                                                class="product_image">
+                                        </td>
+                                        <td>2</td>
+                                        <td>$200</td>
+                                        <td>Sed do eiusmod tempor incididunt ut labore</td>
+                                        <td><span class="badge badge-danger">Out of stock</span></td>
+                                        <td><button type="button" class="btn btn-primary btn-sm">Delete</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="pt-5">
+                            <h6 class="mb-0"><a href="home.php" class="text-body"><i
+                                        class="fas fa-long-arrow-alt-left me-2"></i>Back to shop</a>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
