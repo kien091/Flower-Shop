@@ -254,7 +254,7 @@
 	<div id="product" class="smtop">
 		<div class="heading-product">
 			<h3 class="heading-items">
-				Sản Phẩm Mới Nhất
+				Valentine Flower
 			</h3>
 		</div>
 		<div class="container-fluid">
@@ -513,7 +513,7 @@
 		</div>
 		<div class="heading-product">
 			<h3 class="heading-items">
-				Gợi ý hôm nay
+				Birthday flower
 			</h3>
 		</div>
 		<div class="container-fluid">
