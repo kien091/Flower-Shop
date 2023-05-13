@@ -39,14 +39,6 @@
               <i class="fa-solid fa-user"></i> Customers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link tablinks" onclick="openTab(event, 'tab5')">
-              <i class="fa-solid fa-hand-holding-dollar"></i> Discounts</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link tablinks" onclick="openTab(event, 'tab6')">
-              <i class="fa-solid fa-chart-simple"></i> Reports</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link tablinks" href="home.php">
               <i class="fa-solid fa-shop"></i> Channels</a>
           </li>
@@ -231,7 +223,7 @@
       <div class="content_tab2">
         <div class="container">
           <div class="row ">
-            <div class="col-sm-4 d-flex flex-column">
+            <div class="col-sm-4 mb-5  d-flex flex-column">
               <div class="card">
                 <div class="card-body ">
                   <div class="rounded " style="width: 50%; background-color: red; height: 4px;"></div>
@@ -248,7 +240,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 mb-5 ">
               <div class="card">
                 <div class="card-body">
                   <div class="rounded " style="width: 50%; background-color: red; height: 4px;"></div>
@@ -263,7 +255,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 mb-5 ">
               <div class="card">
                 <div class="card-body">
                   <div class="rounded " style="width: 50%; background-color: red; height: 4px;"></div>
@@ -278,7 +270,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 mb-5 ">
               <div class="card">
                 <div class="card-body">
                   <div class="rounded " style="width: 50%; background-color: red; height: 4px;"></div>
@@ -294,7 +286,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 mb-5 ">
               <div class="card">
                 <div class="card-body">
                   <div class="rounded " style="width: 50%; background-color: red; height: 4px;"></div>
@@ -392,8 +384,6 @@
                     <th scope="col">Price</th>
                     <th scope="col">Details</th>
                     <th scope="col">Status</th>
-                    <th scope="col"></th>
-                    <th scope="col"></th>
                   </tr>
                 </thead>
                 <tbody>
@@ -419,8 +409,6 @@
                         }
                         else
                           ?><td><span class="badge badge-danger">Out of stock</span></td>
-                        <td><button type="button" class="btn btn-primary btn-sm">Edit</button></td>
-                        <td><button type="button" class="btn btn-primary btn-sm">Delete</button></td>
                       </tr>
                       <?php
                     }
@@ -505,8 +493,6 @@
                     <th scope="col">Price</th>
                     <th scope="col">Details</th>
                     <th scope="col">Status</th>
-                    <th scope="col"></th>
-                    <th scope="col"></th>
                   </tr>
                 </thead>
                 <tbody>
@@ -532,8 +518,6 @@
                         }
                         else
                           ?><td><span class="badge badge-danger">Out of stock</span></td>
-                        <td><button type="button" class="btn btn-primary btn-sm">Edit</button></td>
-                        <td><button type="button" class="btn btn-primary btn-sm">Delete</button></td>
                       </tr>
                       <?php
                     }
@@ -543,232 +527,6 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div id="tab5" class="tabcontent">
-      <div class="head-tab1">
-        <div class="input-group  search-box">
-          <input type="text" class="form-control search" placeholder="Search Discounts" aria-label="Search Discounts"
-            aria-describedby="button-addon2">
-          <div class="input-group-append">
-            <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i
-                class="fa fa-search"></i></button>
-          </div>
-        </div>
-        <div class="add-Discounts">
-          <button class="btn btn-primary mb-15">
-            <i class="fas fa-plus"></i> Add Discounts
-          </button>
-        </div>
-        <div class="dropdown ms-sm-3 header-item topbar-user topbar-head-dropdown dropdown-hover-end">
-          <button type="button" class="btn" id="page-header-user-dropdown" data-bs-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            <span class="d-flex align-items-center">
-              <img class="rounded-circle header-profile-user" src="./assets/images/Logo/Logo1.jpg" alt="Header Avatar">
-              <span class="text-start ms-xl-2">
-                <span class="d-none d-xl-inline-block ms-1 fw-medium user-name-text">Nguyễn Minh Khải</span>
-                <span class="d-none d-xl-block ms-1 fs-13 user-name-sub-text">Founder</span>
-              </span>
-            </span>
-          </button>
-        </div>
-      </div>
-      <div class="container">
-        <div class="recent-product col-12" style="margin-top: 30px;">
-          <h5>Product</h5>
-          <div class="contain-table">
-            <table class="table table-striped bg-light">
-              <thead>
-                <tr>
-                  <th scope="col">Discount</th>
-                  <th scope="col">Coupon Title</th>
-                  <th scope="col">Code</th>
-                  <th scope="col">Start Date</th>
-                  <th scope="col">End Date</th>
-                  <th scope="col">Status</th>
-                  <th scope="col"></th>
-                  <th scope="col"></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Rose Flower</td>
-                  <td>Cyber Sale</td>
-                  <td>10</td>
-                  <td>$100</td>
-                  <td>Rose Flower</td>
-                  <td><span class="badge badge-success">In stock</span></td>
-                  <td><button type="button" class="btn btn-primary btn-sm">Edit</button></td>
-                  <td><button type="button" class="btn btn-primary btn-sm">Delete</button></td>
-                </tr>
-                <tr>
-                  <td>Rose Flower</td>
-                  <td>Cyber Sale</td>
-                  <td>5</td>
-                  <td>$50</td>
-                  <td></td>
-                  <td><span class="badge badge-warning">Low stock</span></td>
-                  <td><button type="button" class="btn btn-primary btn-sm">Edit</button></td>
-                  <td><button type="button" class="btn btn-primary btn-sm">Delete</button></td>
-                </tr>
-                <tr>
-                  <td>Rose Flower</td>
-                  <td>Cyber Sale</td>
-                  <td>2</td>
-                  <td>$200</td>
-                  <td>Sed do eiusmod tempor incididunt ut labore</td>
-                  <td><span class="badge badge-danger">Out of stock</span></td>
-                  <td><button type="button" class="btn btn-primary btn-sm">Edit</button></td>
-                  <td><button type="button" class="btn btn-primary btn-sm">Delete</button></td>
-                </tr>
-                <tr>
-                  <td>Rose Flower</td>
-                  <td>Cyber Sale</td>
-                  <td>2</td>
-                  <td>$200</td>
-                  <td>Sed do eiusmod tempor incididunt ut labore</td>
-                  <td><span class="badge badge-danger">Out of stock</span></td>
-                  <td><button type="button" class="btn btn-primary btn-sm">Edit</button></td>
-                  <td><button type="button" class="btn btn-primary btn-sm">Delete</button></td>
-                </tr>
-                <tr>
-                  <td>Rose Flower</td>
-                  <td>Cyber Sale</td>
-                  <td>2</td>
-                  <td>$200</td>
-                  <td>Sed do eiusmod tempor incididunt ut labore</td>
-                  <td><span class="badge badge-danger">Out of stock</span></td>
-                  <td><button type="button" class="btn btn-primary btn-sm">Edit</button></td>
-                  <td><button type="button" class="btn btn-primary btn-sm">Delete</button></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="tab6" class="tabcontent">
-      <div class="head-tab1">
-        <div class="input-group  search-box">
-          <input type="text" class="form-control search" placeholder="Search Customers" aria-label="Search Customers"
-            aria-describedby="button-addon2">
-          <div class="input-group-append">
-            <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i
-                class="fa fa-search"></i></button>
-          </div>
-        </div>
-        <div class="add-Customers">
-          <button class="btn btn-primary mb-15">
-            <i class="fas fa-plus"></i> Add Customers
-          </button>
-        </div>
-        <div class="dropdown ms-sm-3 header-item topbar-user topbar-head-dropdown dropdown-hover-end">
-          <button type="button" class="btn" id="page-header-user-dropdown" data-bs-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            <span class="d-flex align-items-center">
-              <img class="rounded-circle header-profile-user" src="./assets/images/Logo/Logo1.jpg" alt="Header Avatar">
-              <span class="text-start ms-xl-2">
-                <span class="d-none d-xl-inline-block ms-1 fw-medium user-name-text">Nguyễn Minh Khải</span>
-                <span class="d-none d-xl-block ms-1 fs-13 user-name-sub-text">Founder</span>
-              </span>
-            </span>
-          </button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-            <h4 class="mb-sm-0">Statistics</h4>
-
-            <div class="page-title-right">
-              <ol class="breadcrumb m-0">
-                <li class="breadcrumb-item"><a href="javascript: void(0);">Toner</a></li>
-                <li class="breadcrumb-item active">Statistics</li>
-              </ol>
-            </div>
-
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="card">
-            <div class="card-header">
-              <h5 class="card-title mb-0">Sales / Purchase</h5>
-            </div>
-            <div class="card-body">
-              <div id="line_chart_datalabel" data-colors="[&quot;--tb-primary&quot;, &quot;--tb-success&quot;]"
-                class="apex-charts" dir="ltr"></div>
-            </div>
-          </div>
-        </div>
-        <!--end col-->
-        <div class="col-lg-6">
-          <div class="card">
-            <div class="card-header">
-              <h5 class="card-title mb-0">Income Statistics</h5>
-            </div>
-            <div class="card-body">
-              <div id="income_statistics"
-                data-colors="[&quot;--tb-success&quot;, &quot;--tb-primary&quot;, &quot;--tb-success&quot;]"
-                class="apex-charts" dir="ltr"></div>
-            </div>
-          </div>
-        </div>
-        <!--end col-->
-      </div>
-      <div class="row" style="margin-top: 30px;">
-        <div class="col-12">
-          <div class="card">
-            <div class="card-header d-sm-flex align-items-center">
-              <h5 class="card-title mb-3 mb-sm-0 flex-grow-1">Top Selling Product</h5>
-              <div class="flex-shrink-0">
-                <button type="button" class="btn btn-soft-secondary btn-sm">
-                  ALL
-                </button>
-                <button type="button" class="btn btn-soft-secondary btn-sm">
-                  1M
-                </button>
-                <button type="button" class="btn btn-soft-secondary btn-sm">
-                  6M
-                </button>
-                <button type="button" class="btn btn-soft-primary btn-sm">
-                  1Y
-                </button>
-              </div>
-            </div>
-            <div class="card-body">
-              <div id="selling_product"
-                data-colors="[&quot;--tb-primary&quot;, &quot;--tb-primary-rgb, 0.80&quot;, &quot;--tb-primary-rgb, 0.70&quot;, &quot;--tb-primary-rgb, 0.60&quot;, &quot;--tb-primary-rgb, 0.50&quot;]"
-                class="apex-charts" dir="ltr"></div>
-            </div>
-          </div>
-        </div>
-        <!--end col-->
-        <div class="col-12">
-          <div class="card">
-            <div class="card-header align-items-center d-sm-flex">
-              <h4 class="card-title mb-3 mb-sm-0 flex-grow-1">Orders by Countries</h4>
-              <div>
-                <button type="button" class="btn btn-soft-secondary btn-sm">
-                  ALL
-                </button>
-                <button type="button" class="btn btn-soft-primary btn-sm">
-                  1M
-                </button>
-                <button type="button" class="btn btn-soft-secondary btn-sm">
-                  6M
-                </button>
-              </div>
-            </div>
-            <div class="card-body">
-              <div id="countries_charts"
-                data-colors="[&quot;--tb-info&quot;, &quot;--tb-info&quot;, &quot;--tb-info&quot;, &quot;--tb-info&quot;, &quot;--tb-info&quot;, &quot;--tb-info&quot;, &quot;--tb-info&quot;,&quot;--tb-danger&quot;, &quot;--tb-info&quot;]"
-                class="apex-charts" dir="ltr"></div>
-            </div>
-          </div>
-        </div>
-        <!--end col-->
       </div>
     </div>
 </body>
