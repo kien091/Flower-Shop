@@ -163,8 +163,8 @@
 			</div>
 			<div class="Pet-select select">
 				<select name="pets">
-					<option value="">Select Event</option>
-					<option value="Birthday">Birthday</option>
+					<option value="">Select Categories</option>
+					<option value="Birthday">Birthday Flower</option>
 					<option value="Valentine">Valentine</option>
 					<option value="Anniversary Flower">Anniversary Flower</option>
 					<option value="Decoration Flower">Decoration Flower</option>
